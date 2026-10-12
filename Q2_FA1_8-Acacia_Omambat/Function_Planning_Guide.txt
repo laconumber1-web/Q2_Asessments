@@ -1,0 +1,41 @@
+Function Planning Guide
+
+1. Addition
+
+Function Name: add_numbers
+
+Purpose: Adds two numbers.
+
+Parameters: num1, num2
+
+Return Value: The sum of the two numbers.
+
+2. Subtraction
+
+Function Name: subtract_numbers
+
+Purpose: Subtracts the second number from the first number.
+
+Parameters: num1, num2
+
+Return Value: The difference between the two numbers.
+
+3. Multiplication
+
+Function Name: multiply_numbers
+
+Purpose: Multiplies two numbers.
+
+Parameters: num1, num2
+
+Return Value: The product of the two numbers.
+
+4. Division
+
+Function Name: divide_numbers
+
+Purpose: Divides the first number by the second number.
+
+Parameters: num1, num2
+
+Return Value: The quotient of the two numbers, or a message if the second number is zero.
