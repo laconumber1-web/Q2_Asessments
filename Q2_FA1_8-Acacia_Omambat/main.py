@@ -14,10 +14,11 @@ def divide_numbers(num1, num2):
         return "Cannot divide by zero."
     return num1 / num2
 
-
+# Get two numbers from the user
 first = float(input("Enter first number: "))
 second = float(input("Enter second number: "))
 
+# lets the user choose what operation to use
 print("\nChoose operation:")
 print("1 - Addition")
 print("2 - Subtraction")
@@ -26,6 +27,7 @@ print("4 - Division")
 
 choice = input("Enter choice: ")
 
+# Calls the defined operations and executes the whole program
 if choice == "1":
     answer = add_numbers(first, second)
 elif choice == "2":
@@ -37,4 +39,5 @@ elif choice == "4":
 else:
     answer = "Invalid choice."
 
+# Prints the final answer
 print("Result:", answer)
